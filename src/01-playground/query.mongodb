@@ -1,0 +1,8 @@
+use("sample_training")
+
+// esta es una consulta para buscar NY
+db.zips.find({state : 'NY'})
+ // consulta para contar
+ // añadiendo cambio a consulta
+
+db.zips.find({state : 'NY'}).count()
